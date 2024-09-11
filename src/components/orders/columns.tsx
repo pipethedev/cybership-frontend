@@ -1,10 +1,10 @@
 import { ColumnDef } from "@tanstack/react-table";
 import { format } from "date-fns";
-import { Order } from "../../libs/types";
 import { Badge } from "../ui/badge";
 import { Checkbox } from "../ui/checkbox";
+import { OrderType } from "@/src/types";
 
-export const columns: ColumnDef<Order>[] = [
+export const columns: ColumnDef<OrderType>[] = [
   {
     id: "select",
     header: ({ table }) => (
