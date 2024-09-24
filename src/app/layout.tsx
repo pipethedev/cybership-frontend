@@ -21,6 +21,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <main style={{ minHeight: "100vh" }}>{children}</main>
         </body>
+        <script defer src="https://cdn.brimble.io/track.js" data-website-id="0e3c9d80-2b06-4867-bbb6-715a06401d46"></script>
       </ThemeProvider>
     </html>
   );
